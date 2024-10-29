@@ -1,0 +1,132 @@
+/* selector{
+    propiedad: valor;
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(80, 114, 207);
+}
+
+.titulos{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: xxx-large;
+    text-orientation: upright;
+    color: rgb(114, 26, 26);
+}
+
+.logo{
+    width: 140px;
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+.parrafoInicio{
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+body{
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.navegador ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navegador a{
+    color: rgb(231, 142, 9);
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.navegador a:hover{
+    background-color: rgb(26, 26, 26);
+}
+
+.navegador li{
+    float: right;
+}
+
+.footer{
+    text-align-last: center;
+    color: #000;
+}
+
+.subtituloDos{
+    text-align: center;
+}
+
+.sectionContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div1{
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+}
+
+.div2{
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+}
+
+.div3{
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+}
+
+.div4{
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+}
+
+.div1 img{
+    width: 25rem;
+}
+
+.div2 img{
+    width: 25rem;
+}
+
+.div3 img{
+    width: 25rem;
+}
+
+.div4 img{
+    width: 25rem;
+}
+
+.cajaBoton{
+    display: inline-block;
+    padding: 10px; 
+    border: 2px solid rgb(0, 123, 255); 
+    border-radius: 8px; 
+    text-align: center; 
+    text-decoration: none; 
+    background-color: rgb(240, 248, 255); 
+    transition: background-color 0.3s; 
+}
